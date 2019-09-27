@@ -155,7 +155,7 @@ void FSnakeGame::Logic()
 
 		TailLength++; //increment snake length (add element to tail)
 
-		Speed -= 20;  //speed up after score(lower value speed up this decrement sleep time
+		Speed -= 20;  //speed up after score (lower value speed up) by decrementation sleep time
 
 		if (Speed <= 0)
 		{
